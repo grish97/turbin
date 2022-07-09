@@ -1,8 +1,8 @@
 
-export const Login = () => {
+export const Register = () => {
   return  (
     <div>
-      <h2>Login Page shared from PORT 3003</h2>
+      <h2>Register Page shared from PORT 3002</h2>
     </div>
   );
 };
