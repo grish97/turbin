@@ -1,6 +1,7 @@
+import React from "react";
 import { Routes, Route, Outlet, Navigate } from "react-router-dom";
-import {Login} from "./Login";
-import {Register} from "./Register";
+import { Login } from "./Login";
+import { Register } from "./Register";
 
 export const AuthLayout = () => {
   return (
