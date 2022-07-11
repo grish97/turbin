@@ -19,15 +19,15 @@ declare module "messenger/service" {
   };
 }
 
-declare module "auth/service" {
-  export const Login: React.ComponentType;
-  export const Register: React.ComponentType;
-  export const AuthNavigation: React.ComponentType;
-}
-
-declare module "store/service" {
-  export const useStore: () => {
-    user: null | string;
-    setupUser: (user: string) => void;
-  };
-}
+// declare module "auth/service" {
+//   export const Login: React.ComponentType;
+//   export const Register: React.ComponentType;
+//   export const AuthNavigation: React.ComponentType;
+// }
+//
+// declare module "store/service" {
+//   export const useStore: () => {
+//     user: null | string;
+//     setupUser: (user: string) => void;
+//   };
+// }
